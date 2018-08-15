@@ -1,0 +1,1 @@
+CREATE TABLE `mensaje`.`mensajes` ( `id` INT UNSIGNED NOT NULL AUTO_INCREMENT , `remitente` VARCHAR(50) NOT NULL , `destinatario` VARCHAR(50) NOT NULL , `texto` VARCHAR(200) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
